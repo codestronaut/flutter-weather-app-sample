@@ -17,6 +17,7 @@ dependencies:
   equatable: ^2.0.3
   flutter_bloc: ^8.0.1
   get_it: ^7.2.0
+  http: any
 
 dev_dependencies:
   build_runner: ^2.1.2
