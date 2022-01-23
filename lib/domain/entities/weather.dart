@@ -7,7 +7,7 @@ class Weather extends Equatable {
     required this.iconCode,
     required this.temperature,
     required this.pressure,
-    required this.hummidity,
+    required this.humidity,
   });
 
   final String name;
@@ -15,7 +15,7 @@ class Weather extends Equatable {
   final String iconCode;
   final double temperature;
   final int pressure;
-  final int hummidity;
+  final int humidity;
 
   @override
   List<Object?> get props => [
@@ -24,6 +24,6 @@ class Weather extends Equatable {
         iconCode,
         temperature,
         pressure,
-        hummidity,
+        humidity,
       ];
 }

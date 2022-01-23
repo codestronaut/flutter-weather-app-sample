@@ -21,7 +21,7 @@ void main() {
     iconCode: '01d',
     temperature: 282.55,
     pressure: 1023,
-    hummidity: 100,
+    humidity: 100,
   );
 
   const tCityName = 'Jakarta';
