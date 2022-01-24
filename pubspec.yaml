@@ -20,10 +20,12 @@ dependencies:
   http: any
 
 dev_dependencies:
+  bloc_test: ^9.0.2
   build_runner: ^2.1.2
   flutter_test:
     sdk: flutter
   mockito: ^5.0.15
+  mocktail: ^0.2.0
 
 flutter:
 
