@@ -1,42 +1,43 @@
 {
     "coord": {
-        "lon": -0.13,
-        "lat": 51.51
+        "lon": 106.8451,
+        "lat": -6.2146
     },
     "weather": [
         {
-            "id": 300,
-            "main": "Drizzle",
-            "description": "light intensity drizzle",
-            "icon": "09d"
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 280.32,
-        "pressure": 1012,
-        "humidity": 81,
-        "temp_min": 279.15,
-        "temp_max": 281.15
+        "temp": 302.28,
+        "feels_like": 306.16,
+        "temp_min": 301.98,
+        "temp_max": 304.51,
+        "pressure": 1009,
+        "humidity": 70
     },
-    "visibility": 10000,
+    "visibility": 6000,
     "wind": {
-        "speed": 4.1,
-        "deg": 80
+        "speed": 2.06,
+        "deg": 240
     },
     "clouds": {
-        "all": 90
+        "all": 20
     },
-    "dt": 1485789600,
+    "dt": 1642988670,
     "sys": {
         "type": 1,
-        "id": 5091,
-        "message": 0.0103,
-        "country": "GB",
-        "sunrise": 1485762037,
-        "sunset": 1485794875
+        "id": 9383,
+        "country": "ID",
+        "sunrise": 1642978330,
+        "sunset": 1643023003
     },
-    "id": 2643743,
-    "name": "London",
+    "timezone": 25200,
+    "id": 1642911,
+    "name": "Jakarta",
     "cod": 200
 }

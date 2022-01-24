@@ -16,12 +16,13 @@ void main() {
   });
 
   const testWeatherDetail = Weather(
-    name: 'Clear',
-    description: 'clear sky',
-    iconCode: '01d',
-    temperature: 282.55,
-    pressure: 1023,
-    humidity: 100,
+    cityName: 'Jakarta',
+    main: 'Clouds',
+    description: 'few clouds',
+    iconCode: '02d',
+    temperature: 302.28,
+    pressure: 1009,
+    humidity: 70,
   );
 
   const tCityName = 'Jakarta';
