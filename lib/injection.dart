@@ -9,26 +9,28 @@ import 'package:get_it/get_it.dart';
 final locator = GetIt.instance;
 
 void init() {
-  // bloc
-  locator.registerFactory(() => WeatherBloc(locator()));
+  // [TODO] Uncomment this code later
 
-  // usecase
-  locator.registerLazySingleton(() => GetCurrentWeather(locator()));
+  // // bloc
+  // locator.registerFactory(() => WeatherBloc(locator()));
 
-  // repository
-  locator.registerLazySingleton<WeatherRepository>(
-    () => WeatherRepositoryImpl(
-      remoteDataSource: locator(),
-    ),
-  );
+  // // usecase
+  // locator.registerLazySingleton(() => GetCurrentWeather(locator()));
 
-  // data source
-  locator.registerLazySingleton<RemoteDataSource>(
-    () => RemoteDataSourceImpl(
-      client: locator(),
-    ),
-  );
+  // // repository
+  // locator.registerLazySingleton<WeatherRepository>(
+  //   () => WeatherRepositoryImpl(
+  //     remoteDataSource: locator(),
+  //   ),
+  // );
 
-  // external
-  locator.registerLazySingleton(() => http.Client());
+  // // data source
+  // locator.registerLazySingleton<RemoteDataSource>(
+  //   () => RemoteDataSourceImpl(
+  //     client: locator(),
+  //   ),
+  // );
+
+  // // external
+  // locator.registerLazySingleton(() => http.Client());
 }
