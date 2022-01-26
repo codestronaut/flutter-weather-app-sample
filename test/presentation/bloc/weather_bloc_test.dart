@@ -49,7 +49,7 @@ void main() {
       return weatherBloc;
     },
     act: (bloc) => bloc.add(OnCityChanged(tCityName)),
-    wait: const Duration(milliseconds: 100),
+    wait: const Duration(milliseconds: 500),
     expect: () => [
       WeatherLoading(),
       WeatherHasData(tWeather),
@@ -67,6 +67,7 @@ void main() {
       return weatherBloc;
     },
     act: (bloc) => bloc.add(OnCityChanged(tCityName)),
+    wait: const Duration(milliseconds: 500),
     expect: () => [
       WeatherLoading(),
       WeatherError('Server failure'),

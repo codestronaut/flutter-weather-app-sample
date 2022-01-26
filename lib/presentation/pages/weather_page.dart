@@ -28,7 +28,7 @@ class WeatherPage extends StatelessWidget {
               decoration: InputDecoration(
                 hintText: 'Enter city name',
               ),
-              onSubmitted: (query) {
+              onChanged: (query) {
                 context.read<WeatherBloc>().add(OnCityChanged(query));
               },
             ),
